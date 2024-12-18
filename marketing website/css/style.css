@@ -98,14 +98,14 @@ section {
 }
 
 .slide1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(.);
+    background: linear-gradient(rgba(3,169,245,255), rgba(3,169,245,255));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .slide2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/doeh.png);
+    background: linear-gradient(rgba(3,169,245,255), rgba(3,169,245,255));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -228,7 +228,7 @@ text-align: center;}
 
 
 #milestone {
-    background: linear-gradient(#3a3b6b, #3a3b6b), url(../img/bg_banner1.jpg);
+    background: linear-gradient(#3a3b6b, #3a3b6b), url(../img/mm.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
