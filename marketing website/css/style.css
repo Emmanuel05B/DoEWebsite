@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
 
 :root {
-    --brand: #3a3b6b ;   
+    --brand: #000002 ;   
     --dark: #092032;
     --body: #516171;
     --border: rgba(0,0,0,0.08);
@@ -117,29 +117,32 @@ section {
 }
 
 
-/* For the image ssssssssss*/
+/* For the image */
 .responsive-image {
     position: absolute;
     top: 20px;
     right: 20px;
-    max-width: 200px; /* Adjust this size for the desired image size */
+    max-width: 250px; /* Initial image size */
     height: auto;
-    object-fit: cover; /* Makes sure the image covers the area without stretching */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
     z-index: 1;
+    transition: all 0.1s ease-in-out; /* Quick transition */
 }
 
-/* On smaller screens, move the image above the text */
+/* On smaller screens, immediately change the image layout */
 @media (max-width: 768px) {
     .slide .responsive-image {
-        position: relative;
-        top: 0;
+        position: relative; /* Changes layout immediately */
+        top: 0; /* Moves the image to the correct position */
         right: 0;
-        max-width: 40%; /* Adjust as needed */
+        max-width: 40%; /* Makes the image smaller */
         margin: 0 auto;
         display: block; /* Centers the image */
         z-index: 0;
+        transition: all 0.1s ease-in-out; /* Quick transition to avoid mixing */
     }
 }
+
 
 
 
