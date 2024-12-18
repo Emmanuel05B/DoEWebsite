@@ -116,6 +116,33 @@ section {
     color: #fff;
 }
 
+
+/* For the image ssssssssss*/
+.responsive-image {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 200px; /* Adjust this size for the desired image size */
+    height: auto;
+    object-fit: cover; /* Makes sure the image covers the area without stretching */
+    z-index: 1;
+}
+
+/* On smaller screens, move the image above the text */
+@media (max-width: 768px) {
+    .slide .responsive-image {
+        position: relative;
+        top: 0;
+        right: 0;
+        max-width: 40%; /* Adjust as needed */
+        margin: 0 auto;
+        display: block; /* Centers the image */
+        z-index: 0;
+    }
+}
+
+
+
 /* navbar */
 .top-nav {
     background-color: var(--brand);
