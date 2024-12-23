@@ -97,54 +97,19 @@ section {
      position: relative;
 }
 
+
 .slide1 {
     background: linear-gradient(rgba(3,169,245,255), rgba(3,169,245,255));
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .slide2 {
     background: linear-gradient(rgba(3,169,245,255), rgba(3,169,245,255));
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .slide .display-3 {
     text-transform: uppercase;
     color: #fff;
 }
-
-
-/* For the image */
-.responsive-image {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    max-width: 250px; /* Initial image size */
-    height: auto;
-    object-fit: cover; /* Ensures the image covers the area without stretching */
-    z-index: 1;
-    transition: all 0.1s ease-in-out; /* Quick transition */
-}
-
-/* On smaller screens, immediately change the image layout */
-@media (max-width: 768px) {
-    .slide .responsive-image {
-        position: relative; /* Changes layout immediately */
-        top: 0; /* Moves the image to the correct position */
-        right: 0;
-        max-width: 40%; /* Makes the image smaller */
-        margin: 0 auto;
-        display: block; /* Centers the image */
-        z-index: 0;
-        transition: all 0.1s ease-in-out; /* Quick transition to avoid mixing */
-    }
-}
-
-
-
 
 /* navbar */
 .top-nav {
