@@ -249,6 +249,29 @@ text-align: center;}
     width: 90px;
 }
 
+        table {
+            border-collapse: collapse;
+            width: 100%;
+             
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+            border-bottom: 1px solid #DDD;
+            font-size: 14px; 
+            font-weight: 600;
+        }
+        .pos {
+            margin-bottom: 100px;
+            margin-right: 100px;
+            margin-left: 100px;
+            background-color: white;
+        }
+        tr:hover {
+            background-color: #D6EEEE;
+        }
+       
+
 
 .project {
     position: relative;
