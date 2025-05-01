@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
 
 :root {
-    --brand: #000002 ;   
+    --brand: #3a3b6b ;   
     --dark: #092032;
     --body: #516171;
     --border: rgba(0,0,0,0.08);
@@ -99,11 +99,11 @@ section {
 
 
 .slide1 {
-    background: linear-gradient(rgba(3,169,245,255), rgba(3,169,245,255));
+    background: linear-gradient(rgba(125, 95, 255, 0), rgba(125, 95, 255, 1)), url(../img/R.jpeg);
 }
 
 .slide2 {
-    background: linear-gradient(rgba(3,169,245,255), rgba(3,169,245,255));
+    background: linear-gradient(rgba(125, 95, 255, 0), rgba(125, 95, 255, 1)), url(../img/R.jpeg);
 }
 
 .slide .display-3 {
